@@ -1,0 +1,53 @@
+.header_box{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+.title{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 12%;
+    text-align: left;
+}
+
+.menu_box{
+    margin-top: 20px;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu{
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin: 15px;
+    transition: font-weight 0.3s ease;
+}
+
+.menu:hover {
+    font-weight: 800;
+}
+
+.logo  {
+    width:400px;
+
+}
+
+.line {
+    border: 1px solid black;
+    width: 80%;
+
+}
+
+.navigator {
+    display:flex;
+    justify-content:flex-end;
+    text-align: center;
+}
