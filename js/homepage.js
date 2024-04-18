@@ -1,3 +1,11 @@
+AOS.init();
+
+
+
+
+
+
+
 // var Jimp = require("jimp");//
 //jimp library//
 //https://www.npmjs.com/package/jimp?activeTab=readme//
@@ -15,3 +23,5 @@ if (style.styleSheet){
     style.appendChild(document.createTextNode(css));
 }
 head.appendChild(style);
+
+
