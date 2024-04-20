@@ -130,6 +130,7 @@ font-weight: 80;
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
+    margin-bottom: 50px;
  
 }
 
@@ -146,6 +147,35 @@ height: 800px;
     background-color: rgba(255, 255, 255, 0.7); 
     padding: 30px;
 }
+
+
+#background_2{
+  background-image: url('pier_intro.png'); 
+  background-size: 700px;
+  background-position:right;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  height: 900px;
+  }
+  
+#pier_intro{
+      width:50%;
+      background-color: rgba(255, 255, 255, 0.7); 
+      padding: 30px;
+  }
+
+
+  #background_3{
+    background-image: url('brick_intro.jpg'); 
+    background-size: 700px;
+    background-position:right;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    height: 500px;
+    margin-bottom: 50px;
+    }
+  
+    
 /*explore section */
 
 .explore_box_1{
@@ -310,21 +340,28 @@ height: 800px;
 
 
 
-
-
   .gate_carousel_wrapper{
     padding-top: 20px;
     margin-top: 30px;
+    display: flex;
 
   }
 
   .carousel{
     width:30%;
     margin:30px auto;
+    display: flex;
+
+  }
+
+
+  .carousel_container{
+    display: flex;
+    width:30%;
   }
 
   .carousel-nav{
-    width:40%;
+    width:50%;
     margin:30px auto;
   }
 

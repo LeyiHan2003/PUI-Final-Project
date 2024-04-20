@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   
 
@@ -21,12 +21,16 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/carousel.js"defer></script>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
     
 <!-- the logo and the navigator -->
 
 <div class = "header_box">
-    <a href = "./homepage.html" class = "title">
+    <a href = "./index.html" class = "title">
         Hutong Artifacts
        </a>
      <b class = "menu_box">
@@ -75,29 +79,30 @@ which is the most auspicious.
  </div>
 
 
+ <div class ="carousel-nav">
+  <div><img src="assets/gates/guangliang_2.jpg"></div>
+  <div><img src="assets/gates/jinzhu_2.jpg"></div>
+  <div><img src="assets/gates/ruyi_4.jpeg"></div>
+  <div><img src="assets/gates/manzi_1.jpg"></div>
+  <div><img src="assets/gates/suiqiang 3.jpg"></div>
+  <div><img src="assets/gates/western_1.jpg"></div>
+</div>
 
 
-  <div class="gate_carousel_wrapper">
-        <div class="carousel">
-          <a class = "carousel_container"><div class="carousel_title"> Guang-Liang Gate </div><img src="assets/gates/guangliang_2.jpg"></a>
+<div class="gate_carousel_wrapper">
+      <div class="carousel">
+          <div class = "carousel_container">
+            <div class="carousel_title"> Guang-Liang Gate </div>
+            <img src="assets/gates/guangliang_2.jpg">
+          </div>
+
           <div><img src="assets/gates/jinzhu_2.jpg"><div> Jinzhu Gate </div></div>
           <div><img src="assets/gates/ruyi_4.jpeg"><div> Ruyi Gate </div></div>
           <div><img src="assets/gates/manzi_1.jpg"><div> Manzi Gate </div></div>
           <div><img src="assets/gates/suiqiang 3.jpg"><div> Suiqiang Gate </div></div>
           <div><img src="assets/gates/western_1.jpg"><div> Western Style Gate </div></div>
-        </div>
-        <div class ="carousel-nav">
-            <div><img src="assets/gates/guangliang_2.jpg"></div>
-            <div><img src="assets/gates/jinzhu_2.jpg"></div>
-            <div><img src="assets/gates/ruyi_4.jpeg"></div>
-            <div><img src="assets/gates/manzi_1.jpg"></div>
-            <div><img src="assets/gates/suiqiang 3.jpg"></div>
-            <div><img src="assets/gates/western_1.jpg"></div>
-          </div>
-
-
-
-<div class="gate_carousel_wrapper">
+      </div>
+</div>
     <div class="row" id="mobile-step">
           <div class="testimonial-image-slider slider-nav text-center">
             <div class="carousel_description">
@@ -140,8 +145,8 @@ which is the most auspicious.
                 sparrow brace and have fewer decorations. The owner living in quadrangles
                 with such doors usually do not hold positions in the government, but are rich
                 merchant from Southern China.</em>
-    
             </div>
+
             <div class="carousel_description">
               <p>Embedded Gate</p>
               <em>In Peking Hutongs, common civilians live in small-scaled Quadrangles
@@ -151,6 +156,7 @@ which is the most auspicious.
                 built with broken bricks and are of low quality, so Pekingese call these
                 gate buildings “walnut pastry”.</em>
             </div>
+
             <div class="carousel_description">
                 <p>Western Style Gate</p>
                 <em>From later Qing dynasty until People’s Republic period, traditional northern
@@ -162,13 +168,13 @@ which is the most auspicious.
                     are built in YuanMing Yuan (the Winter palace), therefore Pekingese also call these
                     gates YuanMing Yuan gates.
               </em>
-              </div>
-      </div>
+            </div>
     </div>
-      </div>
 
 
-      <hr class ="bottom_line">
+
+  
+  <hr class ="bottom_line">
   
 </body>
 </html>

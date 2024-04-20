@@ -1,15 +1,6 @@
 $("#slick").slick({});
 
 
- //$(document).ready(function(){
-        //$('.carousel').slick({
-        //slidesToShow: 3,
-        //dots:true,
-        //centerMode: true,
-        //});
-     // });
-
-
 
  $('.carousel').slick({
   slidesToShow: 1,
@@ -51,6 +42,7 @@ $('.carousel-nav').slick({
     infinite: true,
     speed: 500,
     fade: true,
+    arrows: false,
     cssEase: 'linear',
     responsive: [
         {

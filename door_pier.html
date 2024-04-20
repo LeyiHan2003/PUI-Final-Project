@@ -7,15 +7,22 @@
   <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   
 
 <body>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+
 <!-- the logo and the navigator -->
 
 <div class = "header_box">
-    <a href = "./homepage.html" class = "title">
+    <a href = "./index.html" class = "title">
         Hutong Artifacts
        </a>
 
@@ -34,26 +41,27 @@
 </div>
 <hr class ="line">
 
-<div class = "subtitle">
+<div class = "subtitle" data-aos="fade-right" data-aos-duration="1000">
     DOOR PIERS
  </div>
 
 
 <!-- Introduction -->
-<div class = "intro_container">
-    <div class = "body_text">
 
-        The pillow stone, or the pier, is two stones set on the door sill, which connects the rotating
-        shaft of the door and facilitate the rotation of the door. There are two types of pillow
-        stones: one is the drum-shaped stone, which is round in shape and looks like a drum. The
-        other is the square door pier. Door pier is an important decorative object in the gate
-        building, and it is often carved with flowers and plants, animals and other patterns, for the
-        purpose of rejecting evil.
-
-
-</div>
-    <img class = "intro_img" src="assets/pier/pier_3.jpg">
-</div>
+<div  id ="background_2">
+<div class = "intro_container" >
+        <div class = "body_text" id = "pier_intro" data-aos="fade-right" data-aos-duration="2000">
+    
+            <br>The pillow stone, or the pier, is two stones set on the door sill, which connects the rotating
+            shaft of the door and facilitate the rotation of the door.</br> <br> There are two types of pillow
+            stones: one is the drum-shaped stone, which is round in shape and looks like a drum. The
+            other is the square door pier. </br><br> The door pier is an important decorative object in the gate
+            building, and it is often carved with flowers and plants, animals and other patterns, for the
+            purpose of rejecting evil.</br>
+    
+        </div>
+    </div>
+    </div>
 
 
 <hr class ="line">

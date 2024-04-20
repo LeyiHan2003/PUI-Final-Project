@@ -7,16 +7,24 @@
   <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   
 
 <body>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+
+
 <!-- the logo and the navigator -->
 
 <div class = "header_box">
     <!-- <a href = "./homepage.html"><img class = "logo" src = "assets/logo/hutong_chinese.jpg"></a>-->
-    <a href = "./homepage.html" class = "title">
+    <a href = "./index.html" class = "title">
         Hutong Artifacts
        </a>
      <b class = "menu_box">
@@ -34,24 +42,25 @@
 </div>
 <hr class ="line">
 
-<div class = "subtitle">
+<div class = "subtitle"  data-aos="fade-right" data-aos-duration="1000">
     BRICK CARVINGS
  </div>
 
 
 <!-- Introduction -->
-<div class = "intro_container">
-    <div class = "body_text">
 
-        Brick carvings often appear on the eaves, doors and flowers. The designs are
-        usually pines, bamboos, flowers and birds, mythological figures, or Bogutu,
-        which show the aesthetic interest of the owners of the house.
-
-
-</div>
-    <img class = "intro_img" src="assets/pier/pier_14.jpg">
-</div>
-
+<div  id ="background_3">
+    <div class = "intro_container" >
+            <div class = "body_text" id = "pier_intro" data-aos="fade-right" data-aos-duration="2000">
+        
+                <br>Brick carvings often appear on the eaves, doors and flowers. </br>
+                <br>The designs are usually pines, bamboos, flowers and birds, mythological figures, or Bogutu,
+                which show the aesthetic interest of the owners of the house.</br>
+        
+            </div>
+        </div>
+        </div>
+    
 
 <hr class ="line">
 <!-- collection -->
@@ -61,18 +70,55 @@
  </div>
 
  <div class = "collection_container">
-    <img class = "collection" src="assets/brick-carving/brick_1.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_2.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_3.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_4.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_5.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_6.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_7.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_8.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_9.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_10.jpg">
-    <img class = "collection" src="assets/brick-carving/brick_11.jpeg">
-    <img class = "collection" src="assets/brick-carving/brick_12.JPG">
+    <div class = "collection"><img src="assets/brick-carving/brick_1.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_2.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_3.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_4.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_5.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_6.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_7.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_8.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_9.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_10.jpg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_11.jpeg">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+    <div class = "collection"><img src="assets/brick-carving/brick_12.JPG">
+        <div class = "collection_text_box"> <div class = "collection_name">Drum-shaped Pier</div>
+        <div class = "collection_location"> Located in NanluoGuxiang</div></div>
+    </div>
+  
 </div>
 
 
