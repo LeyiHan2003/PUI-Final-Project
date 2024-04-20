@@ -88,6 +88,7 @@ font-size: 50px;
 margin-left: 10%;
 margin-right: 10%;
 margin-top: 50px;
+margin-bottom: 20px;
 display:flex;
 justify-content: start;
 }
@@ -131,6 +132,20 @@ font-weight: 80;
     align-items: center;
  
 }
+
+#background_1{
+background-image: url('aerial_view.png'); 
+background-size:auto;
+background-position:right;
+background-repeat: no-repeat;
+height: 800px;
+}
+
+#hutong_intro{
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 30px;
+}
 /*explore section */
 
 .explore_box_1{
@@ -162,18 +177,28 @@ font-weight: 80;
     position: relative;
     display: flex;
     justify-content:flex-end;
-    border: 0px solid black;
 }
 
-.large_image:hover{
+
+.large_image_blur{
     width: 400px;
     height: 400px;
-    margin: 5px;
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content:flex-end;
-    border: 0px solid black;
+
+}
+
+
+.large_image_blur:hover{
+    width: 400px;
+    height: 400px;
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content:flex-end;
     filter: blur(5px); 
 }
 
@@ -193,32 +218,21 @@ font-weight: 80;
     justify-content:flex-end;
 }
 
+
 .small_image img{
     min-width: 100%; 
     min-height: 100%;
     object-fit:cover;
 }
 
-.small_image:hover{
-    width: 200px;
-    height: 200px;
-    margin: 5px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content:flex-end;
-    filter: blur(5px); 
-}
 
 .overlay-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+    font-size: 30px;
     opacity: 0;
     transition: opacity 0.3s ease;
   }
@@ -227,15 +241,26 @@ font-weight: 80;
     opacity: 1;
   }
 
+  .small_image:hover .overlay-text {
+    opacity: 1;
+  }
+
+
+
 .intro_img{
     width: 40%;
 }
+
+
+/*collections section */
 
 .collection_container{
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 30px;
+    aspect-ratio: auto;
 
 
 }
@@ -243,20 +268,52 @@ font-weight: 80;
     width: 100px;
     flex: 0 calc(25% - 10px); 
     margin: 5px; 
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 50px;
-    box-sizing: border-box; 
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-bottom:20px;
+    aspect-ratio: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+ 
   }
+
+  .collection_text_box {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+
+
+  .collection_name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 800;
+    
+  }
+  
+
+  .collection_location {
+    font-family: 'Roboto';
+    color:darkgray;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 100;
+    
+  }
+
+  
+  .collection:hover .collection_text_box {
+    opacity: 1;
+  }
+
 
 
 
 
   .gate_carousel_wrapper{
     padding-top: 20px;
-    text-align:center;
     margin-top: 30px;
 
   }
@@ -295,3 +352,40 @@ font-weight: 80;
     display: flex;
     justify-content: space-between;
   }
+
+
+.carousel_title{
+    font-weight:1000;
+    display: flex;
+    justify-content: start;
+}
+
+
+
+
+  /*mobile slick text slider*/
+  
+  .testimonial-image-slider {margin-top: 5px}
+  .slick-list {margin: 0 5px}
+  
+  .carousel_description{
+    transform: scale(1);
+    display: flex;  
+    margin-left: 5%;
+    margin-right: 5%
+  
+  }
+  .carousel_description.slick-current{
+    transform: scale(1);
+    -webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
+  }
+  .sin-testiImage.slick-current img {
+      border: 2px solid #fff;
+      height: 146px;
+      margin-top: 0;
+      opacity: 1;
+      width: 146px;
+  }
+  
+ 
