@@ -175,6 +175,17 @@ height: 800px;
     margin-bottom: 50px;
     }
   
+
+  #background_4{
+    background-image: url('guangliang_1.jpg'); 
+    background-size: 700px;
+    background-position:right;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    height: 500px;
+    margin-bottom: 50px;
+    }
+  
     
 /*explore section */
 
@@ -348,7 +359,7 @@ height: 800px;
   }
 
   .carousel{
-    width:30%;
+    width:45%;
     margin:30px auto;
     display: flex;
 
@@ -357,11 +368,13 @@ height: 800px;
 
   .carousel_container{
     display: flex;
-    width:30%;
+    width:50%;
+    gap:20px;
+
   }
 
   .carousel-nav{
-    width:50%;
+    width:40%;
     margin:30px auto;
   }
 
@@ -392,15 +405,25 @@ height: 800px;
 
 
 .carousel_title{
+  font-family: Roboto;
     font-weight:1000;
+    font-size: 25px;
     display: flex;
-    justify-content: start;
+    justify-content:center;
+    margin-bottom:20px;
+    outline: 2px black;
+    box-sizing: border-box;
 }
 
 
-
-
+.carousel_text{
+  display: flex;
+  justify-content:center;
+  margin:auto;
+  font-weight: 20;
+}
   /*mobile slick text slider*/
+  
   
   .testimonial-image-slider {margin-top: 5px}
   .slick-list {margin: 0 5px}
@@ -409,20 +432,12 @@ height: 800px;
     transform: scale(1);
     display: flex;  
     margin-left: 5%;
-    margin-right: 5%
+    margin-right: 5%;
+    justify-content:center;
   
   }
   .carousel_description.slick-current{
     transform: scale(1);
-    -webkit-transition: all .5s; /* Safari */
+    -webkit-transition: all .5s;
     transition: all .5s;
   }
-  .sin-testiImage.slick-current img {
-      border: 2px solid #fff;
-      height: 146px;
-      margin-top: 0;
-      opacity: 1;
-      width: 146px;
-  }
-  
- 
